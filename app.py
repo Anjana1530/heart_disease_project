@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 # ✅ Must be first Streamlit command
 st.set_page_config(page_title="Heart Disease Prediction", layout="centered")
 
-st.title("🫀 Heart Disease Prediction using Deep Learning + AI Explainability")
+st.title("Heart Disease Prediction using Deep Learning + AI Explainability")
 
 # ✅ Load tabular (CSV) model and scaler from ../model
 @st.cache_resource
